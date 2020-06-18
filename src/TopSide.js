@@ -5,8 +5,11 @@ import './TopSide.css';
 const innerHTML = <div className="App">
 <div className="App-Nav">
   <span className="appimgcont">
-    <img src={logo} className="TopApp-logo" alt="logo" /></span>
-  <span className="logoverlay">R</span>
+    <span className="appoverlay">
+      <span className="letterR">R</span>
+    </span>
+    <img src={logo} className="TopApp-logo" alt="logo" />
+  </span>
   <span className="appheadercont">
     Just Learn REACT Right now!</span>
 </div>
